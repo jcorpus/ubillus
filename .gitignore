@@ -1,0 +1,22 @@
+# Configuración con contraseñas (base de datos, etc.)
+.env
+config.php
+conexion.php
+
+# Archivos subidos por usuarios, logs y caché
+uploads/
+logs/
+*.log
+cache/
+tmp/
+
+# Respaldos de base de datos
+*.sql
+*.sql.gz
+
+# Editores y sistema
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
